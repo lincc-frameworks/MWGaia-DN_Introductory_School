@@ -30,7 +30,7 @@ Ideas what to show:
 - Notebook 5
   -(Optional) showcase margins
 
-- Notebook 6
+- Notebook 6 (Andy T.)
   - Loading Tape
   - Running a function on the lightcurves
   - Find the most interesting?
