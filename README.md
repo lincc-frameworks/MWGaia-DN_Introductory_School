@@ -1,5 +1,12 @@
 # Rare_Gems_Demo
 
+Installation 
+
+conda create --name lincc python=3.10
+conda activate lincc
+pip install lsdb
+pip install lf-tape
+
 Ideas what to show:
 
 - Notebook 1
