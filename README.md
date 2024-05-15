@@ -25,7 +25,7 @@ If installing in your own hardware, create a virtual environment then `pip insta
 ```
 >> conda create --name lincc python=3.10
 >> conda activate lincc
->> pip install lsdb lf-tape ipyaladin
+>> pip install lsdb lf-tape ipyaladin cesium
 ```
 
 ### Access LINCC Hub
