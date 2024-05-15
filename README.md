@@ -1,5 +1,9 @@
 # Rare_Gems_Demo
 
+<img src="https://github.com/lincc-frameworks/Rare_Gems_Demo/assets/12860669/6ddcd206-d962-4d9f-8937-b6a6dbd31adc" alt="Rare Gems Poster" width="300">
+
+
+
 Installation 
 
 conda create --name lincc python=3.10
