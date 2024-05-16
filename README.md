@@ -7,11 +7,6 @@
 Demonstration prepared for the [Rare Gems in Big Data 2024](https://noirlab.edu/science/events/websites/rare-gems-2024) meeting.
 This demo showcases working with HiPSCat tables via [LSDB](https://lsdb.readthedocs.io/en/stable/).
 
-Demo time and place: 4.00 pm, Wednesday, May 22 Kiva room.
-
-Relevant talks:
-  - 3.00 pm, Monday, May 20, Anastasios Tzanidakis
-  - 11.15 am, Tuesday, May 21, Neven Caplar
 
 See related documentation:
 
@@ -19,6 +14,16 @@ See related documentation:
   ([on ReadTheDocs](https://hipscat.readthedocs.io/en/stable/))
 * LSDB ([on GitHub](https://github.com/astronomy-commons/lsdb)) 
   ([on ReadTheDocs](https://lsdb.readthedocs.io/en/stable/))
+* TAPE ([on GitHub](https://github.com/lincc-frameworks/tape)) 
+  ([on ReadTheDocs](https://tape.readthedocs.io/en/stable))
+
+Demo time and place: 4.00 pm, Wednesday, May 22 Kiva room.
+
+Relevant talks:
+  - 3.00 pm, Monday, May 20, Anastasios Tzanidakis
+  - 11.15 am, Tuesday, May 21, Neven Caplar
+
+
 
 ## Getting Started 
 
