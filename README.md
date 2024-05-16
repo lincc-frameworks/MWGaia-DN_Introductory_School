@@ -7,6 +7,8 @@
 Demonstration prepared for the [Rare Gems in Big Data 2024](https://noirlab.edu/science/events/websites/rare-gems-2024) meeting.
 This demo showcases working with HiPSCat tables via [LSDB](https://lsdb.readthedocs.io/en/stable/).
 
+TODO: add time and room for the presentation from Andy, Neven and this demo
+
 See related documentation:
 
 * HiPSCat ([on GitHub](https://github.com/astronomy-commons/hipscat))
@@ -38,7 +40,7 @@ If installing in your own hardware, create a virtual environment then `pip insta
 >> git clone https://github.com/lincc-frameworks/Rare_Gems_Demo
 ```
 
-4. Open the notebooks in the "LINCC" kernel. TODO - create this kernel
+4. Open the notebooks in the "LINCC" kernel. TODO - check if this is the name
 5. Work through the notebooks and have fun.
 6. Shutdown each notebook after you're done to use less memory.
 
