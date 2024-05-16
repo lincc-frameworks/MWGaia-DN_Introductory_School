@@ -8,6 +8,7 @@ Demonstration prepared for the [Rare Gems in Big Data 2024](https://noirlab.edu/
 This demo showcases working with HiPSCat tables via [LSDB](https://lsdb.readthedocs.io/en/stable/).
 
 Demo time and place: 4.00 pm, Wednesday, May 22 Kiva room.
+
 Relevant talks:
   - 3.00 pm, Monday, May 20, Anastasios Tzanidakis
   - 11.15 am, Tuesday, May 21, Neven Caplar
