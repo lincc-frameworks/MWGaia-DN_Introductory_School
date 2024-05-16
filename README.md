@@ -42,7 +42,7 @@ If installing in your own hardware, create a virtual environment then `pip insta
 
 ### Access LINCC Hub
 
-1. You'll need an account on LINCC-hub. You can sign up by adding your information to [this spreadsheet](https://docs.google.com/spreadsheets/d/1GTuEj2exB0siXMQh6oHefo39UzuMubj0OBdeaKTG-oU/edit#gid=300412066). Please add your information here prio to attending the demo.
+1. You'll need an account on LINCC-hub. You can sign up by adding your information to [this spreadsheet](https://docs.google.com/spreadsheets/d/1GTuEj2exB0siXMQh6oHefo39UzuMubj0OBdeaKTG-oU/edit#gid=300412066). Please add your information here prior to attending the demo.
 2. To get started, log into https://lsst.dirac.dev/. If this fails, reach out over slack on [#lsdb_tape_tutorial](https://raregems2024.slack.com/archives/C073N8DFC22) and tag @nevencaplar.
 3. When starting a server, on the "Server Options" page select "Need more CPU or memory...?" and choose a "Large" server. 
 4. After your server has started up, clone this repo in LINCC-hub ("New" > "Terminal")
