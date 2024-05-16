@@ -42,7 +42,7 @@ If installing in your own hardware, create a virtual environment then `pip insta
 
 ### Access LINCC Hub
 
-1. You'll need an account on LINCC-hub. You can sign up by filling adding your information to (https://docs.google.com/spreadsheets/d/1GTuEj2exB0siXMQh6oHefo39UzuMubj0OBdeaKTG-oU/edit#gid=300412066)[this spreadsheet]. Please add your information here by {TODO: Date and Time}
+1. You'll need an account on LINCC-hub. You can sign up by filling adding your information to [this spreadsheet](https://docs.google.com/spreadsheets/d/1GTuEj2exB0siXMQh6oHefo39UzuMubj0OBdeaKTG-oU/edit#gid=300412066). Please add your information here by {TODO: Date and Time}
 2. To get started, log into https://lsst.dirac.dev/. If this fails, reach out on {TODO add Slack channel} and tag {TODO @pe}
 3. When starting a server, on the "Server Options" page select "Need more CPU or memory...?" and choose a "Large" server. 
 4. After your server has started up, clone this repo in LINCC-hub ("New" > "Terminal")
