@@ -17,7 +17,8 @@ See related documentation:
 * TAPE ([on GitHub](https://github.com/lincc-frameworks/tape)) 
   ([on ReadTheDocs](https://tape.readthedocs.io/en/stable))
 
-Demo time and place: 4.00 pm, Wednesday, May 22 Kiva room.
+Demo time and place:
+  - 4.00 pm, Wednesday, May 22, in Kiva room
 
 Relevant talks:
   - 3.00 pm, Monday, May 20, Anastasios Tzanidakis
