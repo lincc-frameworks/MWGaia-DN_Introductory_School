@@ -28,7 +28,7 @@ Relevant talks:
 
 ## Getting Started 
 
-You can follow along with this demo by creating your own local environment, or accessing the LINCC azure JupyterHub.
+You can follow along with this demo by creating your own local environment, or accessing the LINCC-hub (a shared cloud-hosted JupyterHub).
 
 ### Local installation
 
@@ -42,17 +42,18 @@ If installing in your own hardware, create a virtual environment then `pip insta
 
 ### Access LINCC Hub
 
-1. You'll need an account on LINCC azure hub. TODO - how to do that.
-2. To get started, create a Large instance on https://lsst.dirac.dev/
-3. Clone this repo in LINCC-hub ("New" > "Terminal")
+1. You'll need an account on LINCC-hub. You can sign up by adding your information to [this spreadsheet](https://docs.google.com/spreadsheets/d/1GTuEj2exB0siXMQh6oHefo39UzuMubj0OBdeaKTG-oU/edit#gid=300412066). Please add your information here prio to attending the demo.
+2. To get started, log into https://lsst.dirac.dev/. If this fails, reach out over slack on [#lsdb_tape_tutorial](https://raregems2024.slack.com/archives/C073N8DFC22) and tag @nevencaplar.
+3. When starting a server, on the "Server Options" page select "Need more CPU or memory...?" and choose a "Large" server. 
+4. After your server has started up, clone this repo in LINCC-hub ("New" > "Terminal")
 
 ```
 >> git clone https://github.com/lincc-frameworks/Rare_Gems_Demo
 ```
 
-4. Open the notebooks in the "LINCC" kernel. TODO - check if this is the name
-5. Work through the notebooks and have fun.
-6. Shutdown each notebook after you're done to use less memory.
+5. Open the notebooks in the "LINCC" kernel.
+6. Work through the notebooks and have fun.
+7. Shutdown each notebook after you're done to use less memory.
 
 ## Notebooks
 
