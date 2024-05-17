@@ -51,7 +51,7 @@ If installing in your own hardware, create a virtual environment then `pip insta
 git clone https://github.com/lincc-frameworks/Rare_Gems_Demo
 ```
 
-5. Open the notebooks in the "LINCC" kernel.
+5. Open the notebooks in the "LINCC" kernel. Running, especially the first cell, can take a minute, so feel free to run it before the demo start if you want to follow along.
 6. Work through the notebooks and have fun.
 7. Shutdown each notebook after you're done to use less memory.
 
