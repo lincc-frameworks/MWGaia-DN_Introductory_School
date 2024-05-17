@@ -42,13 +42,13 @@ If installing in your own hardware, create a virtual environment then `pip insta
 
 ### Access LINCC Hub
 
-1. You'll need an account on LINCC-hub. You can sign up by adding your information to [this spreadsheet](https://docs.google.com/spreadsheets/d/1GTuEj2exB0siXMQh6oHefo39UzuMubj0OBdeaKTG-oU/edit#gid=300412066). Please add your information here prior to attending the demo.
-2. To get started, log into https://lsst.dirac.dev/. If this fails, reach out over slack on [#lsdb_tape_tutorial](https://raregems2024.slack.com/archives/C073N8DFC22) and tag @nevencaplar.
-3. When starting a server, on the "Server Options" page select "Need more CPU or memory...?" and choose a "Large" server. 
+1. You'll need an account on LINCC-hub. You can sign up by completing [this form](https://forms.gle/n3cTLqh3eiQQrgD19), and following the steps. Please complete this prior to attending the demo.
+2. *BEFORE STARTING YOUR SERVER*, note that you should not use the default size! On the "Server Options" page select "Need more CPU or memory...?" and choose a "Large" server. 
+3. To get started, log into https://lsst.dirac.dev/. If this fails, reach out over slack on [#lsdb_tape_tutorial](https://raregems2024.slack.com/archives/C073N8DFC22) and tag @nevencaplar.
 4. After your server has started up, clone this repo in LINCC-hub ("New" > "Terminal")
 
 ```
->> git clone https://github.com/lincc-frameworks/Rare_Gems_Demo
+git clone https://github.com/lincc-frameworks/Rare_Gems_Demo
 ```
 
 5. Open the notebooks in the "LINCC" kernel.
