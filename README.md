@@ -5,7 +5,7 @@
 <img src="https://github.com/lincc-frameworks/tape/blob/main/docs/DARK_Combo_sm.png?raw=true" width="300" height="100">
 
 Demonstration prepared for the [Rare Gems in Big Data 2024](https://noirlab.edu/science/events/websites/rare-gems-2024) meeting.
-This demo showcases working with HiPSCat tables via [LSDB](https://lsdb.readthedocs.io/en/stable/).
+This demo showcases working with HiPSCat tables via [LSDB](https://lsdb.readthedocs.io/en/stable/), and doing time domain analysis with [TAPE](https://tape.readthedocs.io/en/stable).
 
 
 See related documentation:
