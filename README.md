@@ -82,3 +82,8 @@ In this notebook we will learn how to use the outputs from LSDB catalogs and use
 - Learn how to use VizieR TAP query to access tables and store/handle them in `LSDB`
 - Learn how to use those catalogs and perform crossmatching with existing `LSDB` catalogs
 - Pass HipsCat LSDB catalogs to `TAPE` to perform time-series analysis and exploration
+
+## Acknowledgements
+
+This project is supported by Schmidt Sciences.
+
