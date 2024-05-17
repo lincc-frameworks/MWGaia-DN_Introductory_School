@@ -22,7 +22,7 @@ Demo time and place:
 
 Relevant talks:
   - 3.00 pm, Monday, May 20, Anastasios Tzanidakis
-  - 11.15 am, Tuesday, May 21, Neven Caplar
+  - 11.15 am, Tuesday, May 21, Neven Caplar - [presentation](https://docs.google.com/presentation/d/19_krkvCRt4RCUs4AKpmqqr--AQQC6MGiuBjCgq-inqw/edit?usp=sharing)
 
 
 
