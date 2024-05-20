@@ -37,7 +37,7 @@ If installing in your own hardware, create a virtual environment then `pip insta
 ```
 >> conda create --name lincc python=3.10
 >> conda activate lincc
->> pip install lsdb lf-tape ipyaladin cesium aiohttp sklearn
+>> pip install lsdb lf-tape ipyaladin cesium aiohttp scikit-learn
 ```
 
 ### Access LINCC Hub
