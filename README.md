@@ -30,16 +30,6 @@ Relevant talks:
 
 You can follow along with this demo by creating your own local environment, or accessing the LINCC-hub (a shared cloud-hosted JupyterHub). We recommend using LINCC-hub because downloading the data stresses the Internet connection in the conference room, and the code will run much quicker and smoother if running via LINCC-hub.
 
-### Local installation
-
-If installing in your own hardware, create a virtual environment then `pip install` relevant packages:
-
-```
->> conda create --name lincc python=3.10
->> conda activate lincc
->> pip install lsdb lf-tape ipyaladin cesium aiohttp scikit-learn
-```
-
 ### Access LINCC Hub [RECOMMENDED]
 
 1. You'll need an account on LINCC-hub. You can sign up by completing [this form](https://forms.gle/n3cTLqh3eiQQrgD19), and following the steps. Please complete this prior to attending the demo.
@@ -54,6 +44,18 @@ git clone https://github.com/lincc-frameworks/Rare_Gems_Demo
 5. Open the notebooks in the "Rare Gems 2024" kernel. Running, especially the first cell, can take a minute, so feel free to run it before the demo starts if you want to follow along.
 6. Work through the notebooks and have fun.
 7. Shutdown each notebook after you're done to use less memory.
+
+### Local installation
+
+If installing in your own hardware, create a virtual environment then `pip install` relevant packages:
+
+```
+>> conda create --name lincc python=3.10
+>> conda activate lincc
+>> pip install lsdb lf-tape ipyaladin cesium aiohttp scikit-learn
+```
+
+
 
 ## Notebooks
 
