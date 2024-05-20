@@ -32,7 +32,7 @@ You can follow along with this demo by creating your own local environment, or a
 
 ### Access LINCC Hub [RECOMMENDED]
 
-1. You'll need an account on LINCC-hub. You can sign up by completing [this form](https://forms.gle/n3cTLqh3eiQQrgD19), and following the steps. Please complete this prior to attending the demo.
+1. You'll need an account on LINCC-hub. You can sign up by completing [this form](https://forms.gle/n3cTLqh3eiQQrgD19), and following the steps. Please complete this prior to attending the demo. You will receive an invite to the github group at the email that is registred with your github acccount.
 2. *BEFORE STARTING YOUR SERVER*, note that you should not use the default size! On the "Server Options" page select "Need more CPU or memory...?" and choose a "Large" server. 
 3. To get started, log into https://lsst.dirac.dev/. If this fails, reach out over slack on [#lsdb_tape_tutorial](https://raregems2024.slack.com/archives/C073N8DFC22) and tag @nevencaplar.
 4. After your server has started up (it will take 3 minutes at least!), clone this repo in LINCC-hub ("New" > "Terminal")
