@@ -21,7 +21,7 @@ Demo time and place:
   - 4.00 pm, Wednesday, May 22, in Kiva room
 
 Relevant talks:
-  - 3.00 pm, Monday, May 20, Anastasios (Andy) Tzanidakis [presentation](https://drive.google.com/file/d/13oTzaXXR5XZokFXEdXjtsYmHFBCesvLy/view)
+  - 3.00 pm, Monday, May 20, Anastasios (Andy) Tzanidakis - [presentation](https://drive.google.com/file/d/13oTzaXXR5XZokFXEdXjtsYmHFBCesvLy/view)
   - 11.15 am, Tuesday, May 21, Neven Caplar - [presentation](https://docs.google.com/presentation/d/19_krkvCRt4RCUs4AKpmqqr--AQQC6MGiuBjCgq-inqw/edit?usp=sharing)
 
 
