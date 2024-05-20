@@ -28,7 +28,7 @@ Relevant talks:
 
 ## Getting Started 
 
-You can follow along with this demo by creating your own local environment, or accessing the LINCC-hub (a shared cloud-hosted JupyterHub).
+You can follow along with this demo by creating your own local environment, or accessing the LINCC-hub (a shared cloud-hosted JupyterHub). We recommend using LINCC-hub because downloading the data stresses the Internet connection in the conference room, and the code will run much quicker and smoother if running via LINCC-hub.
 
 ### Local installation
 
