@@ -87,7 +87,9 @@ In this notebook we will learn how to use the outputs from LSDB catalogs and use
 
 ### LINCC Tech-talks
 
-Join on on Thursday, June 13, 10am Pacific, for the LINCC tech-talk to learn more about LSDB. [See more information (zoom link!) here](https://lsstdiscoveryalliance.org/programs/tech-talks/).
+Join on on Thursday, June 13, 10am Pacific, for the LINCC tech-talk to learn more about LSDB. 
+
+[See more information (e.g., zoom link!) here](https://lsstdiscoveryalliance.org/programs/tech-talks/).
 
 ## Acknowledgements
 
