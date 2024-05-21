@@ -85,6 +85,10 @@ In this notebook we will learn how to use the outputs from LSDB catalogs and use
 - Learn how to use those catalogs and perform crossmatching with existing `LSDB` catalogs
 - Pass HipsCat LSDB catalogs to `TAPE` to perform time-series analysis and exploration
 
+### LINCC Tech-talks
+
+Join on on Thursday, June 13, 10am Pacific, for the LINCC tech-talk to learn more about LSDB. [See more information (zoom link!) here](https://lsstdiscoveryalliance.org/programs/tech-talks/).
+
 ## Acknowledgements
 
 This project is supported by Schmidt Sciences.
