@@ -42,7 +42,7 @@ You can follow along with this demo by creating your own local environment, or a
 git clone https://github.com/lincc-frameworks/MWGaia-DN_Introductory_School
 ```
 
-5. Open the notebooks with the "MWGaia-DN School" kernel. Running, especially the first cells, should take a minute. Feel free to run it before the demo starts if you want to follow along.
+5. Open the notebooks with the "MWGaia-DN School" kernel. If next to the kernel name there is a label saying "Not Trusted", click it and "Trust" the notebook. Running, especially the first cells, should take a minute. Feel free to run it before the demo starts if you want to follow along.
 6. Work through the notebooks and have fun.
 7. Shutdown each notebook after you're done to use less memory.
 
@@ -53,7 +53,7 @@ If installing in your own hardware, create a virtual environment and install the
 ```
 >> conda create --name lincc python=3.11
 >> conda activate lincc
->> pip install lsdb pyvo ipyaladin cesium aiohttp scikit-learn
+>> pip install lsdb pyvo ipyaladin cesium scikit-learn aiohttp
 ```
 
 ## Notebooks
@@ -71,8 +71,8 @@ In this notebook we will learn how to:
 In this notebook we will learn how to:
 
 - Query and filter catalog data
-- Use `nested-pandas` to compute time-series features for LSDB catalogs
-- Plot light curves
+- Compute time-series features for LSDB catalogs using `nested-dask`
+- Plot light curves and periodograms
 
 ### [Notebook 3](Notebook_3_Vizier_LSDB_Interaction.ipynb)
 
@@ -80,7 +80,7 @@ In this notebook we will learn how to:
 
 - Use VizieR TAP query to access tables and store/handle them in `LSDB`
 - Use those catalogs to perform crossmatching with existing `LSDB` catalogs
-- Perform time-series analysis and exploration with `nested-pandas`
+- Perform time-series analysis and exploration with `nested-dask`
 
 ## LINCC Tech Talks
 
