@@ -1,97 +1,95 @@
-# LSDB Demo at Rare Gems in Big Data
+# LSDB Demo at the MWGaia-DN Introductory School
 
-<img src="https://github.com/lincc-frameworks/Rare_Gems_Demo/assets/12860669/6ddcd206-d962-4d9f-8937-b6a6dbd31adc" alt="Rare Gems Poster" width="300">
+<img src="https://indico.cern.ch/event/1413524/logo-1468400139.png" alt="Poster">
 
-<img src="https://github.com/lincc-frameworks/tape/blob/main/docs/DARK_Combo_sm.png?raw=true" width="300" height="100">
+<img src="https://raw.githubusercontent.com/astronomy-commons/lsdb/main/docs/lincc-logo.png" width="300" height="100">
 
-Demonstration prepared for the [Rare Gems in Big Data 2024](https://noirlab.edu/science/events/websites/rare-gems-2024) meeting.
-This demo showcases working with HiPSCat tables via [LSDB](https://lsdb.readthedocs.io/en/stable/), and doing time domain analysis with [TAPE](https://tape.readthedocs.io/en/stable).
+Demonstration prepared for the [MWGaia-DN Introductory School](https://indico.cern.ch/event/1413524), Coimbra, 2024.
+This demo showcases working with HEALPix-partitioned survey catalogs via [LSDB](https://lsdb.readthedocs.io/en/stable/), and time domain analysis with [nested-dask](https://nested-dask.readthedocs.io/en/stable/).
 
+**Time and location:** X pm, Thursday, September 12, in X room
 
-See related documentation:
+% TODO: Update time and location
 
-* HiPSCat ([on GitHub](https://github.com/astronomy-commons/hipscat))
-  ([on ReadTheDocs](https://hipscat.readthedocs.io/en/stable/))
+### Main references
+
+% TODO: Update slide deck link
+
+* Presentation [slide deck]()
+
 * LSDB ([on GitHub](https://github.com/astronomy-commons/lsdb)) 
   ([on ReadTheDocs](https://lsdb.readthedocs.io/en/stable/))
-* TAPE ([on GitHub](https://github.com/lincc-frameworks/tape)) 
-  ([on ReadTheDocs](https://tape.readthedocs.io/en/stable))
-
-Demo time and place:
-  - 4.00 pm, Wednesday, May 22, in Kiva room
-
-Relevant talks:
-  - 3.00 pm, Monday, May 20, Anastasios (Andy) Tzanidakis - [presentation](https://drive.google.com/file/d/13oTzaXXR5XZokFXEdXjtsYmHFBCesvLy/view)
-  - 11.15 am, Tuesday, May 21, Neven Caplar - [presentation](https://docs.google.com/presentation/d/19_krkvCRt4RCUs4AKpmqqr--AQQC6MGiuBjCgq-inqw/edit?usp=sharing)
-
+* HiPSCat ([on GitHub](https://github.com/astronomy-commons/hipscat))
+  ([on ReadTheDocs](https://hipscat.readthedocs.io/en/stable/))
+* nested-dask ([on GitHub](https://github.com/lincc-frameworks/nested-dask)) 
+  ([on ReadTheDocs](https://nested-dask.readthedocs.io/en/stable/))
+* nested-pandas ([on GitHub](https://github.com/lincc-frameworks/nested-pandas)) 
+  ([on ReadTheDocs](https://nested-pandas.readthedocs.io/en/stable/))
 
 
 ## Getting Started 
 
-You can follow along with this demo by creating your own local environment, or accessing the LINCC-hub (a shared cloud-hosted JupyterHub). We recommend using LINCC-hub because downloading the data stresses the Internet connection in the conference room, and the code will run much quicker and smoother if running via LINCC-hub.
+You can follow along with this demo by creating your own local environment, or accessing the LINCC-hub (a shared cloud-hosted JupyterHub). We recommend using LINCC-hub because of the close proximity to our servers hosting the survey data. Also, the code should run much quicker and smoother because the instances have powerful resources available.
 
 ### Access LINCC Hub [RECOMMENDED]
 
-1. You'll need an account on LINCC-hub. You can sign up by completing [this form](https://forms.gle/n3cTLqh3eiQQrgD19), and following the steps. Please complete this prior to attending the demo. You will receive an invite to the github group at the email that is registred with your github acccount.
-2. *BEFORE STARTING YOUR SERVER*, note that you should not use the default size! On the "Server Options" page select "Need more CPU or memory...?" and choose a "Large" server. 
-3. To get started, log into https://lsst.dirac.dev/. If this fails, reach out over slack on [#lsdb_tape_tutorial](https://raregems2024.slack.com/archives/C073N8DFC22) and tag @nevencaplar.
+1. You'll need an account on LINCC-hub. You can sign up by completing [this form](https://forms.gle/Xcm4oQJubSQySciz6), and following the steps. Please complete this prior to attending the demo. You will receive an invite to the GitHub group at the email that is registered with your GitHub acccount. You may need to accept the membership invite.
+2. *BEFORE STARTING YOUR SERVER*, note that you should not use the default size! On the "Server Options" page select "Need more CPU or memory...?" and choose a "Large" server.
+3. To get started, log into https://lsst.dirac.dev/ with your GitHub sign-on. If this fails, please reach out to scampos@andrew.cmu.edu.
 4. After your server has started up (it will take 3 minutes at least!), clone this repo in LINCC-hub ("New" > "Terminal")
 
 ```
-git clone https://github.com/lincc-frameworks/Rare_Gems_Demo
+git clone https://github.com/lincc-frameworks/MWGaia-DN_Introductory_School
 ```
 
-5. Open the notebooks in the "Rare Gems 2024" kernel. Running, especially the first cell, can take a minute, so feel free to run it before the demo starts if you want to follow along.
+5. Open the notebooks with the "MWGaia-DN School" kernel. Running, especially the first cells, should take a minute. Feel free to run it before the demo starts if you want to follow along.
 6. Work through the notebooks and have fun.
 7. Shutdown each notebook after you're done to use less memory.
 
 ### Local installation
 
-If installing in your own hardware, create a virtual environment then `pip install` relevant packages:
+If installing in your own hardware, create a virtual environment and install the relevant packages:
 
 ```
->> conda create --name lincc python=3.10
+>> conda create --name lincc python=3.11
 >> conda activate lincc
->> pip install lsdb lf-tape ipyaladin cesium aiohttp scikit-learn
+>> pip install lsdb pyvo ipyaladin cesium aiohttp scikit-learn
 ```
-
-
 
 ## Notebooks
 
-### Notebook 1
+### [Notebook 1](Notebook_1_Load_and_Xmatch.ipynb)
 
-[Link to notebook](Notebook_1_Load_and_Xmatch.ipynb)
+In this notebook we will learn how to:
 
-**Overview**:
-- Learn how to (lazily) load catalogs
-- Learn how to use those catalogs and perform crossmatching with existing LSDB catalogs
-- Save the results
+- Load object and source catalogs (lazily)
+- Perform crossmatching with existing `LSDB` catalogs
+- Save the results of a science workflow to disk
 
-### Notebook 2
+### [Notebook 2](Notebook_2_Basic_Time_Domain.ipynb)
 
-[Link to notebook](Notebook_2_Basic_Time_Domain.ipynb)
+In this notebook we will learn how to:
 
-**Overview**:
+- Query and filter catalog data
+- Use `nested-pandas` to compute time-series features for LSDB catalogs
+- Plot light curves
 
-In this notebook we will learn how to use the outputs from LSDB catalogs and use `ensemble` from TAPE to compute time-series features.
+### [Notebook 3](Notebook_3_Vizier_LSDB_Interaction.ipynb)
 
-### Notebook 3
+In this notebook we will learn how to:
 
-[Link to notebook](Notebook_3_Vizier_LSDB_Interaction.ipynb)
+- Use VizieR TAP query to access tables and store/handle them in `LSDB`
+- Use those catalogs to perform crossmatching with existing `LSDB` catalogs
+- Perform time-series analysis and exploration with `nested-pandas`
 
-**Overview**: 
-- Learn how to use VizieR TAP query to access tables and store/handle them in `LSDB`
-- Learn how to use those catalogs and perform crossmatching with existing `LSDB` catalogs
-- Pass HipsCat LSDB catalogs to `TAPE` to perform time-series analysis and exploration
+## LINCC Tech Talks
 
-## LINCC Tech-talks
-
-Join on on Thursday, June 13, 10am Pacific, for the LINCC tech-talk to learn more about LSDB. 
-
-[See more information (e.g., zoom link!) here](https://lsstdiscoveryalliance.org/programs/tech-talks/).
+Watch the following [LINCC Tech Talk](https://www.youtube.com/watch?v=yoGhI72Vl40) to learn more about LSDB. Other relevant talks can be found in the [LSST Discovery Alliance website](https://lsstdiscoveryalliance.org/programs/tech-talks/).
 
 ## Acknowledgements
 
 This project is supported by Schmidt Sciences.
 
+This project is based upon work supported by the National Science Foundation under Grant No. AST-2003196.
+
+This project acknowledges support from the DIRAC Institute in the Department of Astronomy at the University of Washington. The DIRAC Institute is supported through generous gifts from the Charles and Lisa Simonyi Fund for Arts and Sciences, and the Washington Research Foundation.
