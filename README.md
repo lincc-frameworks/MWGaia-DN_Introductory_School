@@ -7,15 +7,11 @@
 Demonstration prepared for the [MWGaia-DN Introductory School](https://indico.cern.ch/event/1413524), Coimbra, 2024.
 This demo showcases working with HEALPix-partitioned survey catalogs via [LSDB](https://lsdb.readthedocs.io/en/stable/), and time domain analysis with [nested-dask](https://nested-dask.readthedocs.io/en/stable/).
 
-**Time and location:** X pm, Thursday, September 12, in X room
+**Time and location:** TBA
 
-% TODO: Update time and location
+**Presentation slide deck:** TBA
 
 ### Main references
-
-% TODO: Update slide deck link
-
-* Presentation [slide deck]()
 
 * LSDB ([on GitHub](https://github.com/astronomy-commons/lsdb)) 
   ([on ReadTheDocs](https://lsdb.readthedocs.io/en/stable/))
